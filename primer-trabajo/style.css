@@ -1,3 +1,4 @@
+/*general*/
 * {
     margin: 0px;
     padding: 0px;
@@ -6,12 +7,27 @@
 body{
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+
+}
+a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    text-decoration: none;
 }
 
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+/*izquierda*/
 #left {
     padding: 40px;
     flex: 1;
-    height: auto;
+    height: 100%;
 }
 
 .sign {
@@ -20,9 +36,29 @@ body{
     flex-direction: column;
 }
 
-#right {
-     padding: 40px;
-    flex: 1;
-    height: auto;
+.largo {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 45px;
+    border-style: double;
+    border-color: #e2e2e2;
+}
+
+#botton{
     background-color: #00cbbf;
+    border-color: #00cbbf;
+    color: #fff;
+    box-shadow: 0px 0px 4px 2px #e2e2e2;
+}
+
+#volver {
+    color: #00cbbf;
+}
+/*dercha*/
+#right {
+    padding: 40px;
+    flex: 1;
+    background-color: #00cbbf;
+    border-bottom-left-radius: 45px;
 }
